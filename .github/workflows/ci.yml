@@ -7,6 +7,6 @@ jobs:
       - run: sudo apt-get update
       - run: curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
       - run: sudo apt install nodejs
-      - run: npm install
-      - run: npm install -g @angular/cli
-      - run: ng build
+      - run: sudo npm install
+      - run: sudo npm install -g @angular/cli
+      - run: sudo ng build
