@@ -8,4 +8,5 @@ jobs:
       - run: curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
       - run: sudo apt install nodejs
       - run: npm install
+      - run: npm install -g @angular/cli
       - run: ng build
